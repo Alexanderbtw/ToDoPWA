@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoPWA.API", "ToDoPWA.API\ToDoPWA.API.csproj", "{C1E1A4A4-D3BB-4191-9B5F-DD07545AF4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoPWA.Domain", "ToDoPWA.Domain\ToDoPWA.Domain.csproj", "{FCE593D5-E258-4E49-8CC1-B1D00909FEEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1E1A4A4-D3BB-4191-9B5F-DD07545AF4C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E1A4A4-D3BB-4191-9B5F-DD07545AF4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E1A4A4-D3BB-4191-9B5F-DD07545AF4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E1A4A4-D3BB-4191-9B5F-DD07545AF4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE593D5-E258-4E49-8CC1-B1D00909FEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE593D5-E258-4E49-8CC1-B1D00909FEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE593D5-E258-4E49-8CC1-B1D00909FEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE593D5-E258-4E49-8CC1-B1D00909FEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
