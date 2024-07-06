@@ -1,7 +1,8 @@
 ﻿namespace ToDoPWA.Domain.Entities;
 
-public class Category
+public class Category // Tag
 {
-    public string Title { get; set; }
-    public string Color { get; set; }
+    public string Id { get; set; }
+    public required string Title { get; set; }
+    public string Color { get; set; } = "#FF0000"; // TODO: default color from config
 }

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ToDoPWA.API.Controllers;
@@ -14,6 +15,7 @@ public class ToDoController : ControllerBase
     }
 
     [HttpGet(Name = "GetAllToDoItems")]
+    [Authorize(Roles="admin")]
     public IEnumerable<int> Get()
     {
         return [];

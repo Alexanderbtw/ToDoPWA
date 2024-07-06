@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoPWA.API", "ToDoPWA.API\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoPWA.Domain", "ToDoPWA.Domain\ToDoPWA.Domain.csproj", "{FCE593D5-E258-4E49-8CC1-B1D00909FEEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoPWA.Application", "ToDoPWA.Application\ToDoPWA.Application.csproj", "{89D4B3C3-D68E-4E66-B399-DF0AAB2FA2F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoPWA.DAL", "ToDoPWA.DAL\ToDoPWA.DAL.csproj", "{88C4D359-5973-45F7-9993-3063E584320D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "ExternalInstruments\docker-compose.dcproj", "{2DED3063-D9D2-49C2-865D-69D7EEFF871A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,13 @@ Global
 		{FCE593D5-E258-4E49-8CC1-B1D00909FEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE593D5-E258-4E49-8CC1-B1D00909FEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE593D5-E258-4E49-8CC1-B1D00909FEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D4B3C3-D68E-4E66-B399-DF0AAB2FA2F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D4B3C3-D68E-4E66-B399-DF0AAB2FA2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D4B3C3-D68E-4E66-B399-DF0AAB2FA2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D4B3C3-D68E-4E66-B399-DF0AAB2FA2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C4D359-5973-45F7-9993-3063E584320D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C4D359-5973-45F7-9993-3063E584320D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C4D359-5973-45F7-9993-3063E584320D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C4D359-5973-45F7-9993-3063E584320D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

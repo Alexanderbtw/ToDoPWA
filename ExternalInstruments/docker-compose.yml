@@ -1,0 +1,16 @@
+version: '3.4'
+name: todo-pwa
+
+services:
+  pg-admin:
+    image: dpage/pgadmin4:8.9
+
+  postgres:
+    image: postgres
+    shm_size: 128mb
+
+  #  redis:
+  #    container_name: redis
+  #    image: redis:7.2.4
+  #    ports:
+  #      - 6379:6379

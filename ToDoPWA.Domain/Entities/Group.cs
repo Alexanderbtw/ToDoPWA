@@ -2,18 +2,18 @@
 
 public class Group
 {
-    public Guid Id { get; set; }
-    public string Title { get; set; }
-    public string Description { get; set; }
-    ICollection<ToDo> ToDos { get; set; }
+    public string Id { get; set; }
+    public required string Title { get; set; }
+    public string? Description { get; set; }
+    public required ICollection<ToDo> ToDos { get; set; }
 
     public bool IsDeleted { get; set; }
 
-    public string Color { get; set; }
+    public string Color { get; set; } = "#000000"; // TODO: default color from config
 
-    public Guid? ParentId { get; set; }
+    public string? ParentId { get; set; }
     public Group? Parent { get; set; }
 
-    public Guid? UserId { get; set; }
+    public string? UserId { get; set; }
     public User? User { get; set; }
 }

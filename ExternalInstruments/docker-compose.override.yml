@@ -1,0 +1,18 @@
+version: '3.4'
+# For env, ports, names and volumes, see docker-compose.yml
+
+services:
+  pg-admin:
+    ports:
+      - 8080:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.admin
+      PGADMIN_DEFAULT_PASSWORD: example
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+
+  postgres:
+    environment:
+      POSTGRES_PASSWORD: example
+    ports:
+      - 5432:5432
+
